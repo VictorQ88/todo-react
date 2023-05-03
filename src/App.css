@@ -1,0 +1,45 @@
+.App {
+ margin-top: 20px;
+}
+
+.cardList {
+  width: 350px;
+  background-color: burlywood;
+  padding: 3px;
+  border: 1px solid black;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.taskList{
+  list-style: none;
+}
+
+.taskList input[type="checkbox"] {
+  width: 15px;
+}
+
+.taskList label {
+  width: 200px;
+  display: inline-grid;
+  padding: 5px;
+}
+
+.taskList .newItem {
+  margin-left: 20px;
+  padding: 5px;
+  border: solid 0.5px gray;
+}
+
+.taskDone{
+  text-decoration: line-through;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
